@@ -12,15 +12,15 @@ class InvertedIndex:
 
     def q5_1(self,query):
         # add your code here
-        return ["Doc1", "Doc4"]
+        return None
 
     def q5_2(self,query):
-        # add your code heredddd
-        return ["Doc1","Doc2","Doc3","Doc4"]
+        # add your code here
+        return None
 
 
     def q5_3(self,query):
         # add your code here
         answer = None
-        return ["Doc1", "Doc2", "Doc4"]
+        return answer
 
