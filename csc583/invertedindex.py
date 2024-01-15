@@ -1,12 +1,11 @@
 
-
 class InvertedIndex:
 
     def __init__(self,doc):
         pass
 
     def read_txt_file(self,input_file):
-        #add your code here
+        # add your code here
         docs=None
         return docs
 
@@ -18,9 +17,7 @@ class InvertedIndex:
         # add your code here
         return None
 
-
     def q5_3(self,query):
         # add your code here
         answer = None
         return answer
-
