@@ -29,19 +29,19 @@ just created. Your command must be similar to :
 # Write your code
 
 You will implement one function each for each of the sub questions of qns 5, Eg:` def q5_1(self,query):` inside 
-the class `InvertedIndex`(src/main/python/edu/arizona/cs/invertedindex.py). These functions should return the documents in the right order, as asked in the question. 
+the class `InvertedIndex`(csc583/invertedindex.py). These functions should return the documents in the right order, as asked in the question. 
 
 Also, you **should not edit** these files:
-- `.travis.yml`
-- `src/main/resources/Docs.txt`
-- `src/test/python/edu/arizona/cs/test_q5.py`
+- `.github/workflows/run-tests-on-pull.yml`
+- `Docs.txt`
+- `test_q5.py`
 
-**Note: The file `src/main/resources/Docs.txt` is the input file you must use as per hw1 guidelines. Please don't edit it or move it.**
+**Note: The file `Docs.txt` is the input file you must use as per homework 1 guidelines. Please don't edit it or move it.**
 
 # Test your code
 
-Tests have been provided for you in the `src/test/python/edu/arizona/cs/test_q5.py` file.
-To run all the provided tests, just type/run  ``pytest`` from command line from the directory containing `src/` or any of its subdirectories
+Tests have been provided for you in the `test_q5.py` file.
+To run all the provided tests, just type/run  ``pytest`` from command line from the directory containing `csc583/` or any of its subdirectories
 
 If your code passes the test cases, you will see output like:
 ```
@@ -50,7 +50,7 @@ platform darwin -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
 rootdir: /Users/mordor/tawork/hw1/hw1_python
 collected 3 items                                                              
 
-src/test/python/edu/arizona/cs/test_q5.py ...                            [100%]
+test_q5.py ...                            [100%]
 
 ============================== 3 passed in 0.10s ===============================
 ```
@@ -67,7 +67,7 @@ where the "base" branch is "master", and the "compare" branch is the branch you
 created at the beginning of this assignment.
 Then, go to the "Files changed" tab and make sure that all your changes look as you would expect them
 to.
-There are test cases that will be run automatically (via., [travis](https://travis-ci.com/))
+There are test cases that will be run automatically (via., [Github Actions](https://github.com/features/actions))
 when a pull request is submitted. 
 These are the same as `pytest`. 
 So if your code passed `pytest` in your machine, 
